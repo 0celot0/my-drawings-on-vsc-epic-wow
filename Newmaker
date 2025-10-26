@@ -1,0 +1,13 @@
+# initial idea: create the newmaker from petscop!!
+# goals: learn more advanced things beyond js circles, lines, half circles, ect
+
+import turtle as trtl
+
+painter = trtl.Turtle()
+
+painter.circle(10)
+
+
+
+
+wn.mainloop()

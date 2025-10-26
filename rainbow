@@ -1,0 +1,67 @@
+# rainbow I did for an assignment I think on 10/23/25, transferred from my school computer! ^_^
+
+import turtle as trtl
+
+painter = trtl.Turtle()
+
+painter.speed(10)
+# set size and start place
+painter.pensize(27)
+painter.penup()
+painter.goto(300, 0)
+painter.pendown()
+
+# red
+painter.color("red")
+painter.left(90)
+painter.circle(300, 180)
+
+# orange
+painter.penup()
+painter.goto(275, 0)
+painter.pendown()
+painter.left(180)
+painter.color("orange")
+painter.circle(275, 180)
+
+#yellow
+painter.penup()
+painter.goto(250, 0)
+painter.pendown()
+painter.left(180)
+painter.color("yellow")
+painter.circle(250, 180)
+
+#green
+painter.penup()
+painter.goto(225, 0)
+painter.pendown()
+painter.left(180)
+painter.color("green")
+painter.circle(225, 180)
+
+#blue
+painter.penup()
+painter.goto(200, 0)
+painter.pendown()
+painter.left(180)
+painter.color("blue")
+painter.circle(200, 180)
+
+#purple
+painter.penup()
+painter.goto(175, 0)
+painter.pendown()
+painter.left(180)
+painter.color("purple")
+painter.circle(175, 180)
+
+#pink
+painter.penup()
+painter.goto(150, 0)
+painter.pendown()
+painter.left(180)
+painter.color("pink")
+painter.circle(150, 180)
+
+wn.mainloop()
