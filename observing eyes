@@ -1,3 +1,5 @@
+# HONESTLY, I rlly could've js made the code shorter probably but idcc
+
 import turtle as trtl
 
 painter = trtl.Turtle()
@@ -79,3 +81,4 @@ painter.fillcolor("white")
 painter.begin_fill()
 painter.circle(10)
 painter.end_fill()
+
